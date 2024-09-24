@@ -1,0 +1,98 @@
+.title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-container {
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+}
+
+.form {
+    width: 60dvw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: start;
+}
+
+.field-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.field-label {
+    font-size: 20px;
+}
+
+.field {
+    padding: 5px;
+    width: 300px;
+    font-size: 1rem;
+    resize: none;
+}
+
+.invalid-input-message {
+    color: red;
+    font-size: 0.7rem;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.created-date {
+    font-size: 1rem;
+    color: gray;
+    margin-top: 5px;
+}
+
+.images-container {
+	width: 50dvw;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	overflow-x: scroll;
+	margin: auto;
+}
+
+.image-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    overflow-x: scroll;
+}
+
+.image {
+    width: 300px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1300px) {
+    .menu {
+        display: block;
+		position: absolute;
+    }
+	
+	.sidenav-display {
+		display: none;
+	}
+	
+    .menu input[type="checkbox"]:checked ~ label + .sidenav {
+        display: flex;
+    }
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 20px;
+}

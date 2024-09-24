@@ -1,0 +1,30 @@
+.main {
+	margin-top: 100px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 70dvw;
+	margin: auto;
+	margin-bottom: 100px;
+}
+
+.image {
+	width: 90%;
+	margin-bottom: 20px;
+}
+
+.title {
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+.text {
+	font-size: 1rem;
+	text-align: start;
+}

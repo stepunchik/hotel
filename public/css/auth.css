@@ -1,0 +1,50 @@
+.auth-title {
+	font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.wrapper {
+	grid-template-rows: auto 1fr auto;
+}
+
+.invalid-input-message {
+    color: red;
+    font-size: 0.7rem;
+	height: 20px;
+}
+
+.invalid-input-message li {
+	list-style: none;
+}
+
+.form-container {
+	width: 30dvw;
+	background-color: #FFFFFF;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.field {
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.redirect {
+	text-align: center;
+}

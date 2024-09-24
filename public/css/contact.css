@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.description {
+    font-size: 18px;
+}
+
+.contact-form {
+    border: 1px solid black;
+    width: 1000px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact-form textarea {
+    margin-top: 7px;
+    resize: none;
+}
+
+.contact-form input {
+    margin-top: 7px;
+    width: 300px;
+}
+
+.contact-form select {
+    padding: 2px;
+    background-color: #e9e4e4;
+}
+
+.contact-form input[type="radio"] {
+    width: 50px;
+}
+
+.button {
+    padding: 2px;
+    background-color: #e9e4e4;
+}
+
+.invalid-field {
+    border: 1px solid red;
+}
+
+.valid-field {
+    border: 1px solid green;
+}
+
+#birth-date-input {
+    width: fit-content;
+}
+
+#calendar-button {
+    width: 13px;
+    cursor: pointer;
+}
+
+.calendar {
+    width: 170px;
+    display: none;
+    position: absolute;
+    margin-left: 115px;
+    background-color: #e9e4e4;
+    height: fit-content;
+    border: 1px solid black;
+    padding: 15px;
+    padding-right: 0px;
+    border-radius: 20px;
+}
+
+.calendar select:first-child {
+    margin-right: 10px;
+}
+
+.calendar-shown {
+    display: block;
+}
+
+.week-day-names {
+    margin-bottom: 5px;
+}
+
+.calendar-body {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.day {
+    margin-right: 6px;
+}
+
+.empty-day {
+    width: 3px;
+}
+
+.day:hover {
+    cursor: pointer;
+    background-color: #afe6ff;
+}
+
+.success-message {
+    color: green;
+}

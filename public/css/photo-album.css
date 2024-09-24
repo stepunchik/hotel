@@ -1,0 +1,17 @@
+.album {
+    width: 1200px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+}
+
+.album-item {
+    text-align: center;
+}
+
+.album-item img {
+    width: 100%;
+}
